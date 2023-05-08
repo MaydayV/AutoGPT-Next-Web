@@ -20,7 +20,7 @@ export default function QQDialog({
     <Dialog header={header} isShown={show} close={close}>
       <div className="text-md relative h-[300px] w-[300px] flex-auto p-2 leading-relaxed">
         <Image
-          src="/QQ.png"
+          src="/000000.png"
           alt="QQ"
           loading="eager"
           fill
