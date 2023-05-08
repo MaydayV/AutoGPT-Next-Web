@@ -418,8 +418,7 @@ const FAQ = () => {
   return (
     <Trans i18nKey="faq" ns="chat">
       <p>
-        If you are facing issues, please head over to our
-          Issue
+        If you are facing issues, please head over to our Issue
         </a>
       </p>
     </Trans>
