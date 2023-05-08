@@ -158,17 +158,11 @@ const Drawer = ({
               <DrawerItem
                 icon={<FaDiscord />}
                 text="Discord"
-                href="https://discord.gg/Xnsbhg6Uvd"
+                href="https://discord.gg/"
                 target="_blank"
               />
             </Fragment>
           )}
-          <DrawerItem
-            icon={<FaGithub />}
-            text="GitHub"
-            href="https://github.com/Dogtiti/AutoGPT-Next-Web"
-            target="_blank"
-          />
           <DrawerItem
             icon={<FaLanguage />}
             text="language"
