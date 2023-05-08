@@ -3,7 +3,7 @@
   "provide-api-key-via-settings": "当前未内置API密钥，在设置选项卡中添加自己的 OpenAI API 密钥后才可使用！</br>*出于安全考虑，API密钥仅保存在当前浏览器，更换浏览器后需要重新设置API密钥。",
   "donate-help": "💝️ 支持 AutoGPT 的进步 💝<br />请考虑捐赠以资助我们高昂的基础设施成本。",
   "donate-now": "现在捐助",
-  "restart": "如果这需要超过 30 秒，请重新开始。",
+  "restart": "如果超过 30 秒都没有开始任务，请重新开始执行。",
   "errors": {
     "adding-additional-task": "添加额外的任务时发生了错误。可能是因为这些任务违反了我们模型的策略。不过，我们还是继续处理其他任务。",
     "loop-with-filled-customApiKey": "该代理程序运行时间过长 (50个回合)。为了节省您的费用，该代理程序将关闭。在未来，迭代次数将是可配置的。",
