@@ -56,6 +56,8 @@ const Home: NextPage = () => {
   const [showSorryDialog, setShowSorryDialog] = React.useState(false);
   const [showSignInDialog, setShowSignInDialog] = React.useState(false);
   const [hasSaved, setHasSaved] = useState(false);
+  const [showWeChatPayDialog, setShowWeChatPayDialog] = useState(false);
+  const [showQQDialog, setShowQQDialog] = useState(false);
   const [customLanguage, setCustomLanguage] = useState<string>(i18n.language);
   const settingsModel = useSettings();
   const { isValidGuest, isGuestMode } = useGuestMode(
@@ -176,7 +178,7 @@ const Home: NextPage = () => {
 
   const proTitle = (
     <>
-      AutoGPT<span className="ml-1 text-amber-500/90">Pro</span>
+      AutoGPT Next Web<span className="ml-1 text-amber-500/90">Pro</span>
     </>
   );
 
@@ -227,10 +229,17 @@ const Home: NextPage = () => {
         show={showSignInDialog}
         close={() => setShowSignInDialog(false)}
       />
+      <WeChatPayDialog
+        show={showWeChatPayDialog}
+        close={() => setShowWeChatPayDialog(false)}
+      />
+      <QQDialog show={showQQDialog} close={() => setShowQQDialog(false)} />
       <main className="flex min-h-screen flex-row">
         <Drawer
           showHelp={() => setShowHelpDialog(true)}
           showSettings={() => setShowSettingsDialog(true)}
+          showQQ={() => setShowQQDialog(true)}
+          showWeChatPay={() => setShowWeChatPayDialog(true)}
           handleLanguageChange={handleLanguageChange}
           showDonation={showDonation}
         />
@@ -254,7 +263,7 @@ const Home: NextPage = () => {
                   GPT.
                 </span>
                 <span className="text-4xl font-bold text-white xs:text-5xl sm:text-6xl">
-                  PRO
+                  NextWeb
                 </span>
               </div>
               <div className="mt-1 text-center font-mono text-[0.7em] font-bold text-white">
