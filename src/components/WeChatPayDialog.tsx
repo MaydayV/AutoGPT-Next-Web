@@ -23,7 +23,7 @@ export default function WeChatPayDialog({
     <Dialog header={header} isShown={show} close={close}>
       <div className="text-md relative h-[300px] w-[300px] flex-auto p-2 leading-relaxed">
         <Image
-          src="/weChatPay.png"
+          src="/weChatPay000000.png"
           alt="weChat"
           loading="eager"
           fill
