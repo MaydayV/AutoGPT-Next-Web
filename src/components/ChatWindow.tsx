@@ -418,7 +418,12 @@ const FAQ = () => {
   return (
     <Trans i18nKey="faq" ns="chat">
       <p>
-        If you are facing issues, please head over to our Issue
+        If you are facing issues, please head over to our&nbsp;
+        <a
+          href="https://github.com/Dogtiti/AutoGPT-Next-Web/issues"
+          className="text-sky-500"
+        >
+          Issue
         </a>
       </p>
     </Trans>
