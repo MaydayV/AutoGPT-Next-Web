@@ -229,17 +229,10 @@ const Home: NextPage = () => {
         show={showSignInDialog}
         close={() => setShowSignInDialog(false)}
       />
-      <WeChatPayDialog
-        show={showWeChatPayDialog}
-        close={() => setShowWeChatPayDialog(false)}
-      />
-      <QQDialog show={showQQDialog} close={() => setShowQQDialog(false)} />
       <main className="flex min-h-screen flex-row">
         <Drawer
           showHelp={() => setShowHelpDialog(true)}
           showSettings={() => setShowSettingsDialog(true)}
-          showQQ={() => setShowQQDialog(true)}
-          showWeChatPay={() => setShowWeChatPayDialog(true)}
           handleLanguageChange={handleLanguageChange}
           showDonation={showDonation}
         />
