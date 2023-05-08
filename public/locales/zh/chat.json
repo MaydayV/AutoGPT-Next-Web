@@ -1,6 +1,6 @@
 {
   "create-agent-and-deploy": "> 设置GPT名称/设定任务目标后点击部署，即可自动运行任务！",
-  "provide-api-key-via-settings": "当前未内置API密钥，在设置选项卡中添加自己的 OpenAI API 密钥后才可使用！<br/>*出于安全考虑，API密钥仅保存在当前浏览器，更换浏览器后需要重新设置API密钥。",
+  "provide-api-key-via-settings": "当前未内置API密钥，在设置选项卡中添加自己的 OpenAI API 密钥后才可使用！<\n>*出于安全考虑，API密钥仅保存在当前浏览器，更换浏览器后需要重新设置API密钥。",
   "donate-help": "💝️ 支持 AutoGPT 的进步 💝<br />请考虑捐赠以资助我们高昂的基础设施成本。",
   "donate-now": "现在捐助",
   "restart": "如果超过 30 秒都没有开始任务，请重新开始执行。",
