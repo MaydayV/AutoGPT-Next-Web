@@ -56,8 +56,6 @@ const Home: NextPage = () => {
   const [showSorryDialog, setShowSorryDialog] = React.useState(false);
   const [showSignInDialog, setShowSignInDialog] = React.useState(false);
   const [hasSaved, setHasSaved] = useState(false);
-  const [showWeChatPayDialog, setShowWeChatPayDialog] = useState(false);
-  const [showQQDialog, setShowQQDialog] = useState(false);
   const [customLanguage, setCustomLanguage] = useState<string>(i18n.language);
   const settingsModel = useSettings();
   const { isValidGuest, isGuestMode } = useGuestMode(
