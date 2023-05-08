@@ -1,6 +1,6 @@
 {
   "create-agent-and-deploy": "> 设置GPT名称/设定任务目标后点击部署，即可自动运行任务！",
-  "provide-api-key-via-settings": "当前未内置密钥，在设置选项卡中添加自己的 OpenAI API 密钥后才可使用！",
+  "provide-api-key-via-settings": "当前未内置API密钥，在设置选项卡中添加自己的 OpenAI API 密钥后才可使用！</br>（出于安全考虑，API密钥仅保存在当前浏览器，更换浏览器后需要重新设置API密钥。",
   "donate-help": "💝️ 支持 AutoGPT 的进步 💝<br />请考虑捐赠以资助我们高昂的基础设施成本。",
   "donate-now": "现在捐助",
   "restart": "如果这需要超过 30 秒，请重新开始。",
@@ -24,8 +24,8 @@
   "executing": "执行任务：",
   "completing": "完成任务：",
   "no-more-tasks": "没有更多任务了！正在关闭...",
-  "faq": "<0>如果您遇到问题，请前往我们的 <1>Issue</1>。</0>",
-  "sorry-tips": "<0>由于成本问题，我们不得不暂时禁用网络搜索 🌐。<1></1> <2>但您仍然可以在您的网站上使用它。</2>  <4> More Detials </4></0> ",
+  "faq": "<0>如果您遇到问题，请邮件联系我们。</0>",
+  "sorry-tips": "<0>由于成本问题，我们不得不暂时禁用网络搜索 🌐。</0> ",
   "sorry": "抱歉",
   "web-search": "网络搜索",
   "signin-tips": "<0> 请 <1>登录</1> 以部署代理! 🤖 </0> ",
